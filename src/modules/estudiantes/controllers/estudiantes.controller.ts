@@ -93,7 +93,7 @@ export class EstudiantesController {
     await this.estudianteService.delete(id);
 
     return {
-      message: 'Registro eliminado con exito',
+      message: 'Registro ha sido eliminado con exito',
     };
   }
 
